@@ -6,7 +6,7 @@
  */
 
 import React, {Component} from 'react';
-import {colors, media} from 'theme';
+import {colors, media, fonts} from 'theme';
 
 type State = {
   enabled: boolean,
@@ -63,11 +63,12 @@ class DocSearch extends Component<{}, State> {
         }}>
         <input
           css={{
+            ...fonts.small,
             appearance: 'none',
             background: 'transparent',
             border: 0,
             color: colors.white,
-            fontSize: 18,
+            
             fontWeight: 300,
             fontFamily: 'inherit',
             position: 'relative',
@@ -104,7 +105,7 @@ class DocSearch extends Component<{}, State> {
           }}
           id="algolia-doc-search"
           type="search"
-          placeholder="Search docs"
+          placeholder="جست و جوی مستندات"
           aria-label="Search docs"
         />
       </form>

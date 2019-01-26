@@ -86,7 +86,7 @@ class CodeEditor extends Component {
             css={{
               flex: '0 0 70%',
               overflow: 'hidden',
-              borderRadius: '10px 0 0 10px',
+              borderRadius: '0 10px 10px 0',
 
               [media.lessThan('medium')]: {
                 borderRadius: '10px 10px 0 0',
@@ -99,12 +99,15 @@ class CodeEditor extends Component {
                 color: colors.white,
               }}>
               <MetaTitle onDark={true}>
-                Live JSX Editor
+                ویرایشگر 
+                JSX
+                زنده؟
                 <label
                   css={{
                     fontSize: 14,
                     float: 'right',
                     cursor: 'pointer',
+                    marginLeft: 7
                   }}>
                   <input
                     checked={this.state.showJSX}
@@ -112,8 +115,7 @@ class CodeEditor extends Component {
                       this.setState({showJSX: event.target.checked})
                     }
                     type="checkbox"
-                  />{' '}
-                  JSX?
+                  />
                 </label>
               </MetaTitle>
             </div>
@@ -189,7 +191,7 @@ class CodeEditor extends Component {
                 flex: '0 0 30%',
                 overflow: 'hidden',
                 border: `1px solid ${colors.divider}`,
-                borderRadius: '0 10px 10px 0',
+                borderRadius: '10px 0 0 10px',
 
                 [media.lessThan('medium')]: {
                   borderRadius: '0 0 10px 10px',
@@ -200,7 +202,7 @@ class CodeEditor extends Component {
                   padding: '0 10px',
                   backgroundColor: colors.divider,
                 }}>
-                <MetaTitle>Result</MetaTitle>
+                <MetaTitle>خروجی</MetaTitle>
               </div>
               <div
                 id={containerNodeID}

@@ -11,14 +11,13 @@ import {colors, media} from 'theme';
 const ArrowSvg = ({cssProps = {}}) => (
   <svg
     css={cssProps}
-    height="12"
+    height="24"
+    width="24"
     xmlns="http://www.w3.org/2000/svg"
-    viewBox="0 0 4.53657 8.69699">
+    viewBox="0 0 24 24">
     <path
       d={`
-        M.18254,8.697a.18149.18149,0,0,1-.12886-.31034L4.09723,4.34126.05369.29954a.18149.18149,
-        0,0,1,.2559-.2559L4.4838,4.21785a.18149.18149,0,0,1,0,.2559L.30958,8.648A.18149.18149,
-        0,0,1,.18254,8.697Z
+      M16.67 0l2.83 2.829-9.339 9.175 9.339 9.167-2.83 2.829-12.17-11.996z
       `}
       fill="currentColor"
     />
@@ -39,13 +38,14 @@ const ButtonLink = ({children, type, ...rest}) => {
   return (
     <Link {...rest} css={[style, typeStyle]}>
       {children}
-      {type === 'secondary' && <ArrowSvg cssProps={{marginLeft: 10}} />}
+      {type === 'secondary' && <ArrowSvg cssProps={{marginRight: 10}} />}
     </Link>
   );
 };
 
 const style = {
-  display: 'inline-block',
+  display: 'inline-flex',
+  valign: 'center',
   fontSize: 16,
 
   [media.greaterThan('xlarge')]: {

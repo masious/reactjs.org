@@ -44,7 +44,7 @@ const Header = ({location}: {location: Location}) => (
         <Link
           css={{
             display: 'flex',
-            marginRight: 10,
+            marginLeft: 10,
             height: '100%',
             alignItems: 'center',
             color: colors.brand,
@@ -66,7 +66,7 @@ const Header = ({location}: {location: Location}) => (
           <span
             css={{
               color: 'inherit',
-              marginLeft: 10,
+              marginRight: 10,
               fontWeight: 700,
               fontSize: 20,
               lineHeight: '20px',
@@ -86,7 +86,7 @@ const Header = ({location}: {location: Location}) => (
                 border: 0,
               },
             }}>
-            React
+            ری‌اکت
           </span>
         </Link>
 
@@ -115,22 +115,22 @@ const Header = ({location}: {location: Location}) => (
           }}>
           <HeaderLink
             isActive={location.pathname.includes('/docs/')}
-            title="Docs"
+            title="مستندات"
             to="/docs/getting-started.html"
           />
           <HeaderLink
             isActive={location.pathname.includes('/tutorial/')}
-            title="Tutorial"
+            title="آموزش گام‌به‌گام"
             to="/tutorial/tutorial.html"
           />
           <HeaderLink
             isActive={location.pathname.includes('/community/')}
-            title="Community"
+            title="جامعه"
             to="/community/support.html"
           />
           <HeaderLink
             isActive={location.pathname.includes('/blog')}
-            title="Blog"
+            title="بلاگ"
             to="/blog/"
           />
         </nav>
@@ -185,7 +185,7 @@ const Header = ({location}: {location: Location}) => (
             href="https://github.com/facebook/react/"
             target="_blank"
             rel="noopener">
-            GitHub
+            گیت‌هاب
             <ExternalLinkSvg
               cssProps={{
                 marginLeft: 5,

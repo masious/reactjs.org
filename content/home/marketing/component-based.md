@@ -1,8 +1,8 @@
 ---
-title: Component-Based
+title: بر پایه کمپوننت‌ها
 order: 1
 ---
 
-Build encapsulated components that manage their own state, then compose them to make complex UIs.
+کمپوننت‌های ایزوله بسازید تا حالت خود را مدیریت کنند و از آن‌ها برای ساخت روابط کاربری پیچیده استفاده کنید.
 
-Since component logic is written in JavaScript instead of templates, you can easily pass rich data through your app and keep state out of the DOM.
+از آنجایی که منطق هر کمپوننت به جای تمپلیت‌ها با جاوا اسکریپت نوشته‌می‌شود، به سادگی می‌توانید داده‌های خود را در برنامه دست به دست کرده و فاصله‌ای را با DOM داشته‌باشید.

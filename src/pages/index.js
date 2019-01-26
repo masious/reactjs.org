@@ -134,7 +134,7 @@ class Home extends Component {
                         fontSize: 30,
                       },
                     }}>
-                    A JavaScript library for building user interfaces
+                    يک کتابخانه جاوا اسکریپت برای ساخت رابط‌های کاربری
                   </p>
                   <Flex
                     valign="center"
@@ -149,12 +149,12 @@ class Home extends Component {
                       <ButtonLink
                         to="/docs/getting-started.html"
                         type="primary">
-                        Get Started
+                        شروع کنید!
                       </ButtonLink>
                     </CtaItem>
                     <CtaItem>
                       <ButtonLink to="/tutorial/tutorial.html" type="secondary">
-                        Take the Tutorial
+                        آموزش گام‌به‌گام
                       </ButtonLink>
                     </CtaItem>
                   </Flex>
@@ -286,12 +286,12 @@ class Home extends Component {
               <Flex valign="center">
                 <CtaItem>
                   <ButtonLink to="/docs/getting-started.html" type="primary">
-                    Get Started
+                    شروع کنید!
                   </ButtonLink>
                 </CtaItem>
                 <CtaItem>
                   <ButtonLink to="/tutorial/tutorial.html" type="secondary">
-                    Take the Tutorial
+                    آموزش گام‌به‌گام
                   </ButtonLink>
                 </CtaItem>
               </Flex>
@@ -323,21 +323,21 @@ const CtaItem = ({children, primary = false}) => (
       width: '50%',
 
       [media.between('small', 'large')]: {
-        paddingLeft: 20,
+        paddingRight: 20,
       },
 
       [media.greaterThan('xlarge')]: {
-        paddingLeft: 40,
+        paddingToRight: 40,
       },
 
       '&:first-child': {
-        textAlign: 'right',
+        textAlign: 'left',
         paddingRight: 15,
       },
 
       '&:nth-child(2)': {
         [media.greaterThan('small')]: {
-          paddingLeft: 15,
+          paddingToRight: 15,
         },
       },
     }}>

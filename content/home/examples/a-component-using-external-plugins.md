@@ -1,7 +1,15 @@
 ---
-title: A Component Using External Plugins
+title: یک کمپوننت در حال استفاده از پلاگین‌های خارجی
 order: 3
 domid: markdown-example
 ---
 
-React is flexible and provides hooks that allow you to interface with other libraries and frameworks. This example uses **remarkable**, an external Markdown library, to convert the `<textarea>`'s value in real time.
+ری‌اکت انعطاف‌پذیر است و قلاب‌هایی
+(hooks)
+را ارائه می‌کند تا به کارگیری کتاب‌خانه‌ها و فریم‌ورک‌های دیگر امکان‌پذیر باشد. این مثال از
+**remarkable**
+که یک کتاب‌خانه نشانه‌گذاری
+(Markdown)
+خارجی‌است، استفاده می‌کند تا مقدار
+`<textarea>`
+را بدون درنگ تبدیل کند.

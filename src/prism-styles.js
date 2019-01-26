@@ -28,10 +28,11 @@ const prismColors = {
 css.global('.gatsby-highlight', {
   background: colors.dark,
   color: colors.white,
-  borderRadius: 10,
+  borderRadius: '0 0 10px 0',
   overflow: 'auto',
   tabSize: '1.5em',
   WebkitOverflowScrolling: 'touch',
+  direction: 'ltr'
 });
 
 css.global(

@@ -1,8 +1,8 @@
 ---
-title: Declarative
+title: شفاف
 order: 0
 ---
 
-React makes it painless to create interactive UIs. Design simple views for each state in your application, and React will efficiently update and render just the right components when your data changes.
+ری‌اکت ساخت رابط‌های کاربری پویا را بی‌درد می‌سازد. المان‌های ساده برای هر حالتی از برنامه خود طراحی کنید، و ری‌اکت کمپو‌نت‌های درست را انتخاب خواهد‌کرد برای نمایش و آپدیت، وقتی که داده عوض می‌شود، 
 
-Declarative views make your code more predictable and easier to debug.
+المان‌های شفاف، کد شما را قابل پیش‌بینی کرده و دیباگ کردن آنها را ساده تر می‌سازد.
