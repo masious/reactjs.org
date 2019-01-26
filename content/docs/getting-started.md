@@ -1,6 +1,6 @@
 ---
 id: getting-started
-title: Getting Started
+title: شروع به کار
 permalink: docs/getting-started.html
 next: add-react-to-a-website.html
 redirect_from:
@@ -18,39 +18,57 @@ redirect_from:
   - "docs/environments.html"
 ---
 
-This page is an overview of the React documentation and related resources.
+این صفحه یک بررسی اجمالی از مستندات ری‌اکت و منابع مرتبط است.
 
-**React** is a JavaScript library for building user interfaces. Learn what React is all about on [our homepage](/) or [in the tutorial](/tutorial/tutorial.html).
+**ری‌اکت** یک کتابخانه‌ جاوا اسکریپتی برای ساخت رابط‌های کاربری است. در مورد چیستی ری‌اکت در 
+[صفحه خانه](/) یا [در آموزش گام‌به‌گام](/tutorial/tutorial.html)
+بیشتر بخوانید.
 
 ---
 
-- [Try React](#try-react)
-- [Learn React](#learn-react)
-- [Staying Informed](#staying-informed)
-- [Versioned Documentation](#versioned-documentation)
-- [Something Missing?](#something-missing)
+- [امتحان کردن ری‌اکت](#try-react)
+- [یادگیری ری‌اکت](#learn-react)
+- [با خبر شدن](#staying-informed)
+- [مستندات هر ورژن](#versioned-documentation)
+- [چیزی گم شده؟](#something-missing)
 
-## Try React
+## امتحان کردن ری‌اکت
 
-React has been designed from the start for gradual adoption, and **you can use as little or as much React as you need.** Whether you want to get a taste of React, add some interactivity to a simple HTML page, or start a complex React-powered app, the links in this section will help you get started.
+ری‌اکت از ابتدا با دید گشترش تدریجی، طراحی شده است؛ بدین معنا که **می‌توانید هرچقدر کم یا زیاد که می‌خواهید از ری‌اکت استفاده کنید.** چه بخواهید یک استفاده کوچک از ری‌اکت کنید و به صفحه ساده 
+HTML
+خود، تعدادی تعامل اضافه کنید، و چه بخواهید یک برنامه پیچیده مبتنی بر ری‌اکت شروع کنید، لینک‌های این بخش، در شروع به کار به شما کمک خواهند‌کرد.
 
-### Online Playgrounds
+### زمین بازی آنلاین
 
-If you're interested in playing around with React, you can use an online code playground. Try a Hello World template on [CodePen](codepen://hello-world) or [CodeSandbox](https://codesandbox.io/s/new).
+اگر به بازی کردن با ری‌اکت علاقه‌مند هستید، می‌توانید از یک زمین بازی آنلاین استفاده کنید. یک تمپلیت سلام جهان را در
+[CodePen](codepen://hello-world) یا [CodeSandbox](https://codesandbox.io/s/new)
+امتحان کنید.
 
-If you prefer to use your own text editor, you can also [download this HTML file](https://raw.githubusercontent.com/reactjs/reactjs.org/master/static/html/single-file-example.html), edit it, and open it from the local filesystem in your browser. It does a slow runtime code transformation, so we'd only recommend using this for simple demos.
+اگر ترجیح می‌دهید که از ویرایشگر خود استفاده کنید، می‌توانید
+[این فایل HTML را استفاده کنید](https://raw.githubusercontent.com/reactjs/reactjs.org/master/static/html/single-file-example.html)، آن را ویرایش کرده، و از طریق فایل‌سیستم محلی خود در مرورگر باز کنید. این فایل، یک مرحله تبدیل کد حین اجرا شدن انجام می‌دهد
+(runtime code transformation)
+که آن را بسیار کند می‌کند، در نتیجه ما استفاده از آن را فقط برای دمو‌های ساده پیشنهاد می‌کنیم.
 
-### Add React to a Website
+### افزودن ری‌اکت به یک وبسایت
 
-You can [add React to an HTML page in one minute](/docs/add-react-to-a-website.html). You can then either gradually expand its presence, or keep it contained to a few dynamic widgets.
+می‌توانید [ری‌اکت را در یک دقیقه به یک فایل HTML اضافه کنید.](/docs/add-react-to-a-website.html).
+می‌توانید استفاده از ری‌اکت را تدریجا گسترش داده، یا حوزه آن را به یک سری ویجت‌های پویا محدود کنید.
 
-### Create a New React App
+### ساخت یک برنامه جدید ری‌اکت
 
-When starting a React project, [a simple HTML page with script tags](/docs/add-react-to-a-website.html) might still be the best option. It only takes a minute to set up!
+وقتی یک پروژه جدید ری‌اکت را شروع می‌کنید،
+[یک صفحه HTML ساده با تگ‌های script](/docs/add-react-to-a-website.html)
+ممکن است هنوز هم بهترین آپشن باشد. این روش فقط یک دقیقه زمان برای نصب می‌گیرد!
 
 As your application grows, you might want to consider a more integrated setup. There are [several JavaScript toolchains](/docs/create-a-new-react-app.html) we recommend for larger applications. Each of them can work with little to no configuration and lets you take full advantage of the rich React ecosystem.
 
-## Learn React
+هرچقدر که برنامه شما رشد کند، ممکن است که بخواهد یک روش نصب مجتمع‌
+(integrated)
+را در نظر بگیرید.
+[چند ابزار جاوا اسکریپتی](/docs/create-a-new-react-app.html)
+وجود دارد که ما برای برنامه‌های بزرگ‌تر توضیه می‌کنیم. هر کدام از آنها، یا بدون تنظیم یا با تنظیمات خیلی کمی، با شما این امکان را می‌دهند که از اکوسیستم ری‌اکت، نهایت استفاده را ببرید.
+
+## یادگیری ری‌اکت
 
 People come to React from different backgrounds and with different learning styles. Whether you prefer a more theoretical or a practical approach, we hope you'll find this section helpful.
 

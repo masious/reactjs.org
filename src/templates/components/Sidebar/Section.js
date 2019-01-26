@@ -49,8 +49,9 @@ class Section extends React.Component {
             {section.title}
             <ChevronSvg
               cssProps={{
-                marginLeft: 7,
+                marginRight: 7,
                 transform: isActive ? 'rotateX(180deg)' : 'rotateX(0deg)',
+                transformOrigin: '50% 50%',
                 transition: 'transform 0.2s ease',
 
                 [media.lessThan('small')]: {
@@ -92,7 +93,7 @@ class Section extends React.Component {
               })}
 
               {item.subitems && (
-                <ul css={{marginLeft: 20}}>
+                <ul css={{marginRight: 20}}>
                   {item.subitems.map(subitem => (
                     <li key={subitem.id}>
                       {createLink({

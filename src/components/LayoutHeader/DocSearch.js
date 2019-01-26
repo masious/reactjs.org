@@ -86,7 +86,7 @@ class DocSearch extends Component<{}, State> {
             },
 
             [media.lessThan('large')]: {
-              fontSize: 16,
+              fontSize: 12,
             },
             [media.greaterThan('small')]: {
               width: '100%',

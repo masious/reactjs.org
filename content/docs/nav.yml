@@ -1,68 +1,68 @@
-- title: Installation
+- title: نصب
   items:
     - id: getting-started
-      title: Getting Started
+      title: شروع به کار
     - id: add-react-to-a-website
-      title: Add React to a Website
+      title: افزودن ری‌اکت به یک وبسایت
     - id: create-a-new-react-app
-      title: Create a New React App
+      title: ساخت یک برنامه جدید ری‌اکت
     - id: cdn-links
-      title: CDN Links
-- title: Main Concepts
+      title: لینک‌های CDN
+- title: مفاهیم اصلی
   isOrdered: true
   items:
     - id: hello-world
-      title: Hello World
+      title: سلام جهان
     - id: introducing-jsx
-      title: Introducing JSX
+      title: معرفی JSX
     - id: rendering-elements
-      title: Rendering Elements
+      title: رندریگ المان‌ها
     - id: components-and-props
-      title: Components and Props
+      title: کمپوننت‌ها و prop ها
     - id: state-and-lifecycle
-      title: State and Lifecycle
+      title: حالت و چرخه زندگی
     - id: handling-events
-      title: Handling Events
+      title: رسیدگی به رویداد‌ها
     - id: conditional-rendering
-      title: Conditional Rendering
+      title: رندرینگ شرطی
     - id: lists-and-keys
-      title: Lists and Keys
+      title: لیست‌ها و کلید‌ها
     - id: forms
-      title: Forms
+      title: فرم‌ها
     - id: lifting-state-up
-      title: Lifting State Up
+      title: بهره‌گیری از حالت
     - id: composition-vs-inheritance
-      title: Composition vs Inheritance
+      title: ترکیب یا ارث‌بری
     - id: thinking-in-react
-      title: Thinking In React
-- title: Advanced Guides
+      title: فکر کردن ری‌اکتی
+- title: راهنما‌های پیشرفته
   items:
     - id: accessibility
       title: Accessibility
     - id: code-splitting
-      title: Code-Splitting
+      title: پخش کد (Code-Splitting)
     - id: context
       title: Context
     - id: error-boundaries
-      title: Error Boundaries
+      title: محدوده ارور‌ها
     - id: forwarding-refs
-      title: Forwarding Refs
+      title: ارسال Ref ها
     - id: fragments
-      title: Fragments
+      title: فرگمنت‌ها
     - id: higher-order-components
-      title: Higher-Order Components
+      title: کمپوننت‌های لِوِل‌-بالا
     - id: integrating-with-other-libraries
-      title: Integrating with Other Libraries
+      title: Integrate با کتاب‌خانه‌های دیگر
     - id: jsx-in-depth
-      title: JSX In Depth
+      title: در اعماق JSX
     - id: optimizing-performance
-      title: Optimizing Performance
+      title: بهبود عملکرد
     - id: portals
-      title: Portals
+      title: پرتال‌ها
     - id: react-without-es6
-      title: React Without ES6
+      title: ری‌اکت بدون ES6
     - id: react-without-jsx
-      title: React Without JSX
+      title: ری‌اکت بدون JSX
     - id: reconciliation
       title: Reconciliation
     - id: refs-and-the-dom

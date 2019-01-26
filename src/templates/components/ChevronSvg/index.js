@@ -17,8 +17,8 @@ const ChevronSvg = ({size = 10, cssProps = {}}: Props) => (
     css={cssProps}
     viewBox="0 0 926.23699 573.74994"
     version="1.1"
-    x="0px"
-    y="0px"
+    x="926.23699px"
+    y="573.74994px"
     width={size}
     height={size}>
     <g transform="translate(904.92214,-879.1482)">
